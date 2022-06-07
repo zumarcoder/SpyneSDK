@@ -11,6 +11,8 @@
 		846BA7E1284E227E002B47B1 /* SpyneSDKProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846BA7D6284E227E002B47B1 /* SpyneSDKProject.framework */; };
 		846BA7E6284E227E002B47B1 /* SpyneSDKProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BA7E5284E227E002B47B1 /* SpyneSDKProjectTests.swift */; };
 		846BA7E7284E227E002B47B1 /* SpyneSDKProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 846BA7D9284E227E002B47B1 /* SpyneSDKProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A58B613173E66B677638D9F7 /* Pods_SpyneSDKProject_SpyneSDKProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E839BB97828F6136F641B0 /* Pods_SpyneSDKProject_SpyneSDKProjectTests.framework */; };
+		AB2213B96D6B4338613F70A0 /* Pods_SpyneSDKProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057975AF54CA911F62443865 /* Pods_SpyneSDKProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +26,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		057975AF54CA911F62443865 /* Pods_SpyneSDKProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyneSDKProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4A56D0CB781A3C237529C3 /* Pods-SpyneSDKProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyneSDKProject.release.xcconfig"; path = "Target Support Files/Pods-SpyneSDKProject/Pods-SpyneSDKProject.release.xcconfig"; sourceTree = "<group>"; };
+		16E852DC3A076D685F1D8FEF /* Pods-SpyneSDKProject-SpyneSDKProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyneSDKProject-SpyneSDKProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SpyneSDKProject-SpyneSDKProjectTests/Pods-SpyneSDKProject-SpyneSDKProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		846BA7D6284E227E002B47B1 /* SpyneSDKProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpyneSDKProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		846BA7D9284E227E002B47B1 /* SpyneSDKProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpyneSDKProject.h; sourceTree = "<group>"; };
 		846BA7DA284E227E002B47B1 /* SpyneSDKProject.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SpyneSDKProject.docc; sourceTree = "<group>"; };
 		846BA7E0284E227E002B47B1 /* SpyneSDKProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyneSDKProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846BA7E5284E227E002B47B1 /* SpyneSDKProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyneSDKProjectTests.swift; sourceTree = "<group>"; };
+		B044652DE4FA18399F75685A /* Pods-SpyneSDKProject-SpyneSDKProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyneSDKProject-SpyneSDKProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SpyneSDKProject-SpyneSDKProjectTests/Pods-SpyneSDKProject-SpyneSDKProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8E839BB97828F6136F641B0 /* Pods_SpyneSDKProject_SpyneSDKProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyneSDKProject_SpyneSDKProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98FB68F947D73F201DC52F1 /* Pods-SpyneSDKProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyneSDKProject.debug.xcconfig"; path = "Target Support Files/Pods-SpyneSDKProject/Pods-SpyneSDKProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2213B96D6B4338613F70A0 /* Pods_SpyneSDKProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				846BA7E1284E227E002B47B1 /* SpyneSDKProject.framework in Frameworks */,
+				A58B613173E66B677638D9F7 /* Pods_SpyneSDKProject_SpyneSDKProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B716D2033DA847266AADF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D98FB68F947D73F201DC52F1 /* Pods-SpyneSDKProject.debug.xcconfig */,
+				0B4A56D0CB781A3C237529C3 /* Pods-SpyneSDKProject.release.xcconfig */,
+				16E852DC3A076D685F1D8FEF /* Pods-SpyneSDKProject-SpyneSDKProjectTests.debug.xcconfig */,
+				B044652DE4FA18399F75685A /* Pods-SpyneSDKProject-SpyneSDKProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		846BA7CC284E227E002B47B1 = {
 			isa = PBXGroup;
 			children = (
 				846BA7D8284E227E002B47B1 /* SpyneSDKProject */,
 				846BA7E4284E227E002B47B1 /* SpyneSDKProjectTests */,
 				846BA7D7284E227E002B47B1 /* Products */,
+				17B716D2033DA847266AADF6 /* Pods */,
+				98B4A07611ACAB8F00714E04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +109,15 @@
 			path = SpyneSDKProjectTests;
 			sourceTree = "<group>";
 		};
+		98B4A07611ACAB8F00714E04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				057975AF54CA911F62443865 /* Pods_SpyneSDKProject.framework */,
+				C8E839BB97828F6136F641B0 /* Pods_SpyneSDKProject_SpyneSDKProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -103,6 +136,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846BA7EA284E227E002B47B1 /* Build configuration list for PBXNativeTarget "SpyneSDKProject" */;
 			buildPhases = (
+				AF3FB17E2E4D508BFF5241AE /* [CP] Check Pods Manifest.lock */,
 				846BA7D1284E227E002B47B1 /* Headers */,
 				846BA7D2284E227E002B47B1 /* Sources */,
 				846BA7D3284E227E002B47B1 /* Frameworks */,
@@ -121,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846BA7ED284E227E002B47B1 /* Build configuration list for PBXNativeTarget "SpyneSDKProjectTests" */;
 			buildPhases = (
+				DF2B9FF5FFC56A07751353B0 /* [CP] Check Pods Manifest.lock */,
 				846BA7DC284E227E002B47B1 /* Sources */,
 				846BA7DD284E227E002B47B1 /* Frameworks */,
 				846BA7DE284E227E002B47B1 /* Resources */,
+				31E5FA1D3FD96322F75C15F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +224,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31E5FA1D3FD96322F75C15F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpyneSDKProject-SpyneSDKProjectTests/Pods-SpyneSDKProject-SpyneSDKProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpyneSDKProject-SpyneSDKProjectTests/Pods-SpyneSDKProject-SpyneSDKProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpyneSDKProject-SpyneSDKProjectTests/Pods-SpyneSDKProject-SpyneSDKProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF3FB17E2E4D508BFF5241AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpyneSDKProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF2B9FF5FFC56A07751353B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpyneSDKProject-SpyneSDKProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		846BA7D2284E227E002B47B1 /* Sources */ = {
@@ -339,6 +439,7 @@
 		};
 		846BA7EB284E227E002B47B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98FB68F947D73F201DC52F1 /* Pods-SpyneSDKProject.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -367,6 +468,7 @@
 		};
 		846BA7EC284E227E002B47B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4A56D0CB781A3C237529C3 /* Pods-SpyneSDKProject.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -395,6 +497,7 @@
 		};
 		846BA7EE284E227E002B47B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E852DC3A076D685F1D8FEF /* Pods-SpyneSDKProject-SpyneSDKProjectTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -411,6 +514,7 @@
 		};
 		846BA7EF284E227E002B47B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B044652DE4FA18399F75685A /* Pods-SpyneSDKProject-SpyneSDKProjectTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
